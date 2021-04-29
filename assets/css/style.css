@@ -1,0 +1,173 @@
+.container-1 {
+    display: flex;
+    flex-direction: column;
+ }
+.textos {
+    background-color: #F7F8FC;
+    margin-top: 40px;
+    border-left: 3px solid #FF7533;
+}
+.linea {
+   padding: 20px;
+   margin-top: 35px;
+   font-size: 14px;
+}
+.container-2 {
+    display: flex;
+}
+.James {
+    width: 48px;
+    height: 48px;
+    margin-top: 10px;
+}
+h5 {
+     color: #A6A8BD;
+     font-size: 12px;
+     align-items:right;
+     margin-top: 20px;
+     margin-left: 10px;
+ }
+.puntos {
+     display: flex;
+     justify-content: center;
+     height: 30px;
+ }
+ .botones {
+     background-color: black;
+     width: 12px;
+     height: 12px;
+     border-radius: 50%;
+     margin: 3px;
+     border: none;
+ }
+.botones:focus, .botones:hover {
+    background-color: grey;
+}
+.container-3 {
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 220px 220px;
+    justify-content: center;
+    text-align: center;
+    column-gap: 70px;
+    row-gap: 20px;
+}
+h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}    
+.parrafo {
+    align-items: flex-end;
+    width:300px;
+    margin-top: 20px;
+}
+
+.container-4 {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}   
+.titular {
+    text-align: center;
+}  
+.portada {
+   width:350px;  
+   padding: 25px;
+   margin-right: 60px;
+}
+.listaboton {  
+    list-style: none;
+    padding: 30px;
+    margin: 0px;
+    text-align: left;
+    /* para poner las bullets iguales se puede usar list-style-imgage: url(/"");*/
+}
+li {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 30px;    
+}   
+svg {
+    margin-right: 10px;
+}
+.botoncito {
+    Width: 130px;
+    Height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FF7533; 
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;      
+}
+.elipse {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.container-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8FC;
+    width: 700px;
+    height: 250px;
+    margin-left: 200px;
+}
+.inscripcion {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8C94A8;
+    text-align: center;
+}
+.email {
+    border: none;
+    width: 300px;
+    padding:10px;
+}
+::placeholder {
+    font-size: 14px;
+    color: #C8CAD7;
+}
+.enviar {
+    border: none;
+    font-size: 15px;
+    background-color: #FF7533;
+    color: white;
+    width: 60px;
+    border-radius: 2px;
+    padding: 10px;
+}
+.container-6 {
+       display: grid;
+       grid-template-columns: 370px 370px 370px;
+       grid-template-rows: 260px 280px;    
+}
+.comillas {
+    margin-left:120px;
+    margin-top: -10px;
+}
+.comentario {
+    font-style: italic;                                                  
+    padding: 10px;
+}
+.grid-4, .grid-5 {
+    margin-left: 170px;
+    row-gap: 10px;
+}
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5 {
+    background-color: #F7F8FC;
+    width: 350px;
+    height: 230px;
+}
+.fotocargo {
+    display: flex;
+    margin-left: 10px;  
+}    
+
+                                       
